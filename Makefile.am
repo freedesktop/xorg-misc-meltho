@@ -19,7 +19,6 @@
 #  NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 #  CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-FONT_DIR = OTF
 FONT_FILES = \
 	SyrCOMAdiabene.otf \
 	SyrCOMAntioch.otf \
@@ -44,7 +43,7 @@ FONT_FILES = \
 	SyrCOMUrhoyBold.otf \
 	SyrCOMUrhoy.otf
 
-fontdir = $(libdir)/X11/fonts/$(FONT_DIR)
+fontdir = @FONTDIR@
 font_DATA = $(FONT_FILES)
 
 EXTRA_DIST = $(FONT_FILES) license.txt README autogen.sh
