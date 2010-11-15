@@ -22,7 +22,7 @@ dnl
 dnl Process this file with autoconf to create configure.
 
 AC_PREREQ([2.57])
-AC_INIT([font-misc-meltho], [1.0.2],
+AC_INIT([font-misc-meltho], [1.0.3],
         [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],
         [font-misc-meltho])
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
